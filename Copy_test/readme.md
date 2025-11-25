@@ -66,3 +66,16 @@ chunk_copy.exe source_file dest_file
 gcc full_copy.c -o full_copy.exe
 full_copy.exe source_file dest_file
 ```
+## What You Will Learn / Code Takeaways
+
+- How to perform file I/O in C using fread() and fwrite()
+
+- Differences between chunked read/write vs full memory read/write
+
+- Implementing optional buffered I/O for better performance
+
+- Measuring execution time for file operations using clock_gettime()
+
+- Managing memory allocation for file operations safely
+
+- Understanding performance trade-offs between memory usage and speed

@@ -66,3 +66,17 @@ client.exe
 ```
 
 **Note:** On the same machine, use 127.0.0.1 as server IP.
+
+## What You Will Learn / Code Takeaways
+
+- Basics of TCP socket programming in C
+
+- Cross-platform network programming (Windows vs Linux)
+
+- Use of conditional compilation (#ifdef) to separate code logic
+
+- How to send and receive messages safely using send() and recv()
+
+- Handling connection closures and errors gracefully
+
+- Simple command-line interactive chat
